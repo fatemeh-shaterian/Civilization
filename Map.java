@@ -67,15 +67,7 @@ public class Map {
         this.city = city;
     }
 
-    /*return 0:
-                TileType is Mountain
-        return 1:
-                TileType is Plain
-        return 2:
-                TileType is Sea
-        return 3:
-                TileType is Lake
-        */
+   
     public int getTileType(int x , int y){
         return Tiles[x][y];
     }
